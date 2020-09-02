@@ -18,10 +18,10 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: kWhiteColor,
           primaryColor: kPrimaryColor,
           textTheme: TextTheme(
-            headline: TextStyle(fontWeight: FontWeight.bold),
+            headline5: TextStyle(fontWeight: FontWeight.bold),
             button: TextStyle(fontWeight: FontWeight.bold),
-            title: TextStyle(fontWeight: FontWeight.bold),
-            body1: TextStyle(color: kTextColor),
+            headline6: TextStyle(fontWeight: FontWeight.bold),
+            bodyText2: TextStyle(color: kTextColor),
           )),
       home: HomeScreen(),
     );
@@ -66,7 +66,7 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.all(20),
             child: Text(
               "Simple way to find \nTasty food",
-              style: Theme.of(context).textTheme.headline,
+              style: Theme.of(context).textTheme.headline5,
             ),
           ),
           SingleChildScrollView(

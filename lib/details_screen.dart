@@ -54,7 +54,7 @@ class DetailsScreen extends StatelessWidget {
                     children: [
                       TextSpan(
                         text: "Vegan salad bowl\n",
-                        style: Theme.of(context).textTheme.title,
+                        style: Theme.of(context).textTheme.headline6,
                       ),
                       TextSpan(
                         text: "With red tomato",
@@ -69,7 +69,7 @@ class DetailsScreen extends StatelessWidget {
                   "\$20",
                   style: Theme.of(context)
                       .textTheme
-                      .headline
+                      .headline5
                       .copyWith(color: kPrimaryColor),
                 )
               ],
